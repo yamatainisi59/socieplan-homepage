@@ -1,0 +1,347 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+}
+
+/*ヘッダー*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    /*ヘッダーの色*/
+    padding: 10px 20px;
+}
+
+/*ヘッダー内のロゴ*/
+.logo {
+    height: 120px;
+}
+
+/* ハンバーガーメニュー用 */
+.menu-toggle {
+    font-size: 24px;
+    color: black;
+    /*ハンバーガーメニューの色*/
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+    /* ハンバーガーメニューを非表示に */
+}
+
+.menu-close {
+    display: none;
+}
+
+/*ヘッダーメニュー*/
+.nav-menu ul {
+    display: flex;
+    /*メニューを横並びに*/
+    list-style: none;
+    /*「・」の削除*/
+    gap: 24px;
+    /*文字の間隔*/
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    /*メニューの色*/
+}
+
+.nav-menu a {
+    color: #235a32;
+    /*メニューの文字色*/
+    text-decoration: none;
+    /*メニューの下線の削除*/
+    font-weight: bold;
+}
+
+.main-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.main-bg {
+    width: 100%;
+    filter: sepia(20%) saturate(120%) brightness(105%) hue-rotate(-10deg);
+}
+
+.concept {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.concept h2 {
+    font-family: "Noto Serif JP", serif;
+    color: #235a32;
+    font-weight: bold;
+}
+
+.concept p {
+    line-height: 1.8;
+}
+
+
+.menu {
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.menu h2 {
+    font-family: "Noto Serif JP", serif;
+    color: #235a32;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu p {
+    line-height: 1.8;
+}
+
+.menu-list {
+    text-align: center;
+    max-width: 600px;
+    background-color: beige;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.menu-list h3 {
+    color: #235a32;
+    font-weight: 1000;
+    font-family: "Noto Serif JP", serif;
+}
+
+.menu-1 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.menu-text {
+    padding: 16px 48px;
+    text-align: left;
+}
+
+.map {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.map h2 {
+    font-family: "Noto Serif JP", serif;
+    color: #235a32;
+    font-weight: bold;
+}
+
+.access-text p {
+    text-align: center;
+    border-bottom: 1px solid #E1E6C1;
+    /* 線の色と太さ */
+    padding-bottom: 16px;
+    /* テキストと線の間隔 */
+}
+
+.contact {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact p {
+    margin-bottom: 32px;
+    line-height: 1.8
+}
+
+.contact h2 {
+    font-family: "Noto Serif JP", serif;
+    color: #235a32;
+    font-weight: bold;
+}
+
+.form-button a {
+    display: inline-block;
+    background-color: #235a32;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 24px;
+}
+
+.form-button a:hover {
+    background-color: #1a4025;
+}
+
+.insta-button a {
+    display: inline-block;
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 48px;
+}
+
+.insta-button a:hover {
+    filter: brightness(0.9);
+    /* 少し暗くする */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    /* 影を強調 */
+}
+
+.line-button a {
+    display: inline-block;
+    background-color: #06C755;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 24px;
+}
+
+.line-button a:hover {
+    background-color: #04B14A;
+}
+
+.site-footer {
+    background-color: #235a32;
+    /* フッター背景色 */
+    color: #fff;
+    /* 文字色 */
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+}
+
+.site-footer h3 {
+    font-family: "Noto Serif JP", serif;
+    margin-bottom: 16px;
+}
+
+.site-footer p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #feda75;
+    /* ホバー時にInstagram風の黄色に */
+}
+
+/* スマホ表示用 */
+@media (max-width: 768px) {
+
+    .concept {
+        padding: 6%;
+    }
+
+    .menu {
+        padding: 6%;
+    }
+
+    .map {
+        padding: 6%;
+    }
+
+    .contact {
+        padding: 6%;
+    }
+
+    .concept-image {
+        width: 100%;
+    }
+
+    .menu-text {
+        padding: 12px 32px;
+    }
+
+    .nav-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        /* 横幅いっぱい */
+        height: 100%;
+        /* 縦幅いっぱい */
+        background-color: white;
+        /* 背景色 */
+        padding: 40px 20px;
+        z-index: 1000;
+        /* 前面に表示 */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-menu.open {
+        display: flex;
+        /* または block */
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-menu li {
+        margin: 20px 0;
+    }
+
+    .nav-menu a {
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .menu-toggle,
+    .menu-close {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        font-size: 40px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 1100;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu-close {
+        display: none;
+    }
+
+    .nav-menu.open .menu-close {
+        display: block;
+    }
+
+    .main-bg {
+        height: 70vh;
+        object-fit: cover;
+    }
+
+}
